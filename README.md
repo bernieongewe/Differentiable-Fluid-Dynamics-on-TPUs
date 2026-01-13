@@ -1,5 +1,7 @@
 # Differentiable Fluid Dynamics on TPUs
 
+![Status](https://img.shields.io/badge/Status-Personal_Experiment-orange?style=for-the-badge)
+
 ## Overview
 
 This repository demonstrates a modern workflow for [Computational Fluid Dynamics (CFD)](https://en.wikipedia.org/wiki/Computational_fluid_dynamics) that bridges the gap between rapid Python prototyping and supercomputer-scale production.
@@ -101,3 +103,7 @@ Open your browser and navigate to: `http://[EXTERNAL_IP_OF_TPU_VM]:8888`
 - Upload `lattice-boltzmann-jax.ipynb` and run through all the cells. 
 - <span style="color: red;">**Note: On the first run you may have to restart the kernel after running the first cell.**</span>
 - Don't forget to experiment with lattice fineness and number of iterations to truly appreciate the capabilities of JAX for this simulation.
+
+**Disclaimer: This project is a personal experiment applying JAX to physics simulations. It is not an officially supported Google Cloud product.**
+
+
