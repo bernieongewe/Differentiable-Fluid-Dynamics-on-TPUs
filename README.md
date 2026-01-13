@@ -29,6 +29,8 @@ Beyond raw speed, this repository demonstrates the power of differentiable physi
   - Instead of trial-and-error to find optimal shapes, we use jax.grad to differentiate through the entire fluid simulation backwards in time.
   - Demo: We calculate the "Sensitivity Map" (Adjoint Gradient) for a cylinder in cross-flow, automatically visualizing where to add or remove material to minimize turbulence.
 
+> **Read the full story:** https://medium.com/@o.bernie/beyond-ai-supercharging-computational-fluid-dynamics-with-tpus-and-jax-dabef1dff928
+
 ---
 ## Disclaimer: Hardware & Cost
 
